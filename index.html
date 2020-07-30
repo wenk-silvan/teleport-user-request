@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Teleport User Signup Tool</title>
+    <meta name="description" content="Teleport User Signup Tool">
+    <meta name="author" content="wenksi">
+
+    <link rel="stylesheet" href="css/milligram.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <h1>Teleport User Creation</h1>
+    <div>
+        <label for="name">User Name:</label>
+        <input type="text" id="name">
+        <input class="button-primary" type="submit" value="Create" onclick="createUser()">
+        <input class="button-primary" type="submit" value="Delete" onclick="deleteUser()">
+    </div>
+    <div>
+        <p id="message"></p>
+        <p><a href="#" id="url" target="_blank"></a></p>
+    </div>
+</body>
+
+<script src="js/requests.js"></script>
+
+</html>
